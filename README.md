@@ -24,5 +24,5 @@ To get started with the projects in this repo, you’ll need Python installed on
 2. **Clone the Repository**  
    Use the following command to clone this repo to your local machine:  
    ```bash
-   git clone https://github.com/LindseyJorissen/pythondev2425.git
+   git clone https://github.com/LindseyJorissen/my-python-journey.git
 
