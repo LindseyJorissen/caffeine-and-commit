@@ -9,9 +9,9 @@ This repository contains a collection of small Python projects and exercises I'v
 
 Here are some of the projects included in this repository:
 
-- [**Fibonacci sequence**](Fibonacci%20sequence)
-- [**Multiplication Table**](Multiplication%20Table)
-- [**Rock Paper Scissors game**](Rock%20Paper%20Scissors)
+- [**Fibonacci sequence**](Projects/Fibonacci%20sequence)
+- [**Multiplication Table**](Projects/Multiplication%20Table)
+- [**Rock Paper Scissors game**](Projects/Rock%20Paper%20Scissors)
 
 
 ## Installation
