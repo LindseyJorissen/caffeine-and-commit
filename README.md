@@ -10,6 +10,7 @@ This repository contains a collection of small Python projects and exercises I'v
 Here are some of the projects included in this repository:
 
 - [**Fibonacci sequence**](Projects/Fibonacci%20sequence)
+- [**Higher Lower guessing game**](Projects/Higher%20Lower)
 - [**Multiplication Table**](Projects/Multiplication%20Table)
 - [**Rock Paper Scissors game**](Projects/Rock%20Paper%20Scissors)
 
