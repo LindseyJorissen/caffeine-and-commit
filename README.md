@@ -11,6 +11,7 @@ Here are some of the projects included in this repository:
 
 - [**Fibonacci sequence**](Fibonacci%20sequence)
 - [**Multiplication Table**](Multiplication%20Table)
+- [**Rock Paper Scissors game**](Rock%20Paper%20Scissors)
 
 
 ## Installation
