@@ -1,5 +1,5 @@
+import math
 def kosten_berekening_vloerder():
-    import math
     aantal_projecten_per_week = int(input("Hoeveel projecten doe je per week? "))
     for i in range(1,aantal_projecten_per_week+1):
         werkuren_lijst = []
@@ -8,6 +8,7 @@ def kosten_berekening_vloerder():
         week_prijs_incl_btw = []
         week_prijs_exl_btw = []
         aantal_werkuren = 0
+        print(f"--- Project {i} --- ")
         bouwjaar_huis = int(input("Wat is het bouwjaar van het huis?"))
         if bouwjaar_huis <= 6:
             btw_percentage = 0.06
@@ -49,3 +50,4 @@ def kosten_berekening_vloerder():
     print(f"De kostprijs van de projecten van deze week bedragen {week_prijs_incl_btw}, in totaal {sum(week_prijs_incl_btw)}")
     print(f"Het duurste project kostte {max(week_prijs_incl_btw)} euro")
     print(f"Totale omzet van deze week is {float(sum(week_prijs_exl_btw))} euro")
+kosten_berekening_vloerder()
