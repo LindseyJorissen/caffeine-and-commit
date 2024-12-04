@@ -9,8 +9,8 @@ This repository contains a collection of small Python projects and exercises I'v
 
 Here are some of the projects included in this repository:
 
+- [**Fibonacci sequence**](Fibonacci%20sequence)
 - [**Multiplication Table**](Multiplication%20Table)
-
 
 
 ## Installation
