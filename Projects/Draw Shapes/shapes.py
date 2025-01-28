@@ -1,8 +1,8 @@
-def draw_bottomleft_triangle(height):
+def draw_Lbottom_triangle(height):
     for i in range(height+1):
         print(i * "#\t")
         
-def draw_bottomright_triangle(height):
+def draw_Rbottom_triangle(height):
     for i in range(height):
         for j in range(i,height-1):
             print(" ",end="\t")
@@ -10,13 +10,13 @@ def draw_bottomright_triangle(height):
             print("#",end="\t")
         print()
 
-def draw_topleft_triangle(height):
+def draw_Ltop_triangle(height):
     for i in range(height):
         for j in range(i,height):
             print("#", end="\t")
         print()
         
-def draw_topright_triangle(height):
+def draw_Rtop_triangle(height):
     for i in range(height):
         for j in range(i):
             print(" ",end="\t")
