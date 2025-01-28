@@ -1,4 +1,6 @@
 import random
+
+
 def higher_lower_game():
     random_number = random.randint(1, 100)
     attempts = 8
@@ -22,4 +24,6 @@ def higher_lower_game():
             print("Higher!")
         if attempts == 0:
             print(f"You're out of attempts! The number was {random_number}. Better luck next time!")
+
+
 higher_lower_game()
