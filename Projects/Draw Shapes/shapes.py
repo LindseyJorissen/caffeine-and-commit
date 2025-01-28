@@ -45,3 +45,13 @@ def draw_pyramid(height):
         for j in range(i+1):
             print("#",end=" ")
         print()
+
+def draw_circle(diameter):
+    radius = int(diameter/2)
+    for y in range(-radius, radius +1):
+        for x in range(-radius, radius+1):
+            if (x**2 + y**2)**0.5 < radius + 0.5:
+                print("# ", end="")
+            else:
+                print("  ", end="")
+        print() 
