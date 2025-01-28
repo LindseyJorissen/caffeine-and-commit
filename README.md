@@ -9,6 +9,7 @@ This repository contains a collection of small Python projects and exercises I'v
 
 Here are some of the projects included in this repository:
 
+- [**Draw shapes**](Projects/Draw%20Shapes)
 - [**Fibonacci sequence**](Projects/Fibonacci%20sequence)
 - [**Higher Lower guessing game**](Projects/Higher%20Lower)
 - [**Magic 8-Ball**](Projects/Magic%208-Ball)
