@@ -2,10 +2,10 @@ BoxLayout:
     orientation: 'vertical'
     canvas.before:
         Color:
-            rgba: 0.6, 0.3, 0, 1  # Dark orange background
-        Rectangle:
-            pos: self.pos
-            size: self.size
+            rgba: 0.5, 0.25, 0, 1  # Border color
+        Line:
+            width: 20  # Border
+            rectangle: self.x, self.y, self.width, self.height
 
     TextInput:
         id: result
@@ -13,105 +13,125 @@ BoxLayout:
         readonly: True
         halign: 'right'
         multiline: False
-        background_color: (0.4, 0.2, 0, 1)  # Darker orange for input field
-        foreground_color: (1, 1, 1, 1)  # White text color
+        background_color: (164, 165, 123, 1)  # Beige background for the input field
+        foreground_color: (0.5, 0.25, 0,1)  # Text color
+        size_hint_y: 0.3
 
     GridLayout:
         cols: 4
+        spacing: 10
+        padding: [10, 10, 10, 10]
         size_hint_y: 0.6
 
         Button:
             text: "7"
+            font_size: 30
             background_color: (0.5, 0.25, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "8"
+            font_size: 30
             background_color: (0.5, 0.25, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "9"
+            font_size: 30
             background_color: (0.5, 0.25, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "/"
+            font_size:40
             background_color: (1, 0.5, 0, 1)  # Orange for operators
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "4"
+            font_size: 30
             background_color: (0.5, 0.25, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "5"
+            font_size: 30
             background_color: (0.5, 0.25, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "6"
+            font_size: 30
             background_color: (0.5, 0.25, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "*"
+            font_size: 40
             background_color: (1, 0.5, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "1"
+            font_size: 30
             background_color: (0.5, 0.25, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "2"
+            font_size: 30
             background_color: (0.5, 0.25, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "3"
+            font_size: 30
             background_color: (0.5, 0.25, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "-"
+            font_size: 40
             background_color: (1, 0.5, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "C"
-            background_color: (1, 0.5, 0, 1)  # Orange color for 'C'
+            font_size: 40
+            background_color: (1, 0.5, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "0"
+            font_size: 30
             background_color: (0.5, 0.25, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "="
+            font_size: 50
             background_color: (1, 0.5, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
 
         Button:
             text: "+"
+            font_size: 40
             background_color: (1, 0.5, 0, 1)
             color: (1, 1, 1, 1)
             on_press: app.on_button_press(self)
+
