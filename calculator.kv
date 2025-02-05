@@ -1,10 +1,12 @@
 BoxLayout:
     orientation: 'vertical'
+    padding: 20
+    spacing: 5
     canvas.before:
         Color:
             rgba: 0.5, 0.25, 0, 1  # Border color
         Line:
-            width: 20  # Border
+            width: 20
             rectangle: self.x, self.y, self.width, self.height
 
     TextInput:

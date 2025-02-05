@@ -7,7 +7,6 @@ class CalculatorApp(App):
     def on_button_press(self, instance):
         result = self.root.ids.result  #input
         text = instance.text
-
         if text == "C":
             result.text = ""  #clear if c is pressed
         elif text == "=":
