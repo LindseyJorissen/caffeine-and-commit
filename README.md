@@ -11,16 +11,16 @@ Here are some of the projects included in this repository:
 
 **Python**
 
-- [**Draw shapes**](Projects/Draw%20Shapes)
-- [**Fibonacci sequence**](Projects/Fibonacci%20sequence)
-- [**Higher Lower guessing game**](Projects/Higher%20Lower)
-- [**Magic 8-Ball**](Projects/Magic%208-Ball)
-- [**Multiplication Table**](Projects/Multiplication%20Table)
-- [**Rock Paper Scissors game**](Projects/Rock%20Paper%20Scissors)
-- [**Tic-Tac-Toe game**](Projects/Tic-Tac-Toe)
+- [**Draw shapes**](Projects/python/Draw%20Shapes)
+- [**Fibonacci sequence**](Projects/python/Fibonacci%20sequence)
+- [**Higher Lower guessing game**](Projects/python/Higher%20Lower)
+- [**Magic 8-Ball**](Projects/python/Magic%208-Ball)
+- [**Multiplication Table**](Projects/python/Multiplication%20Table)
+- [**Rock Paper Scissors game**](Projects/python/Rock%20Paper%20Scissors)
+- [**Tic-Tac-Toe game**](Projects/python/Tic-Tac-Toe)
 
 **C**
-- [**Check Creditcard number**](Projects/Check%20Creditcard)
-- [**Draw shapes**](Projects/Draw%20shapes)
-- [**Higher Lower guessing game**](Projects/Higher%20Lower%20game)
+- [**Check Creditcard number**](Projects/c/Check%20Creditcard)
+- [**Draw shapes**](Projects/c/Draw%20shapes)
+- [**Higher Lower guessing game**](Projects/c/Higher%20Lower%20game)
 
