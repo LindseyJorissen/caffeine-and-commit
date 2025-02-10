@@ -21,6 +21,6 @@ Here are some of the projects included in this repository:
 
 **C**
 - [**Check Creditcard number**](Projects/c/Check%20Creditcard)
-- [**Draw shapes**](Projects/c/Draw%20shapes)
+- [**Draw shapes**](Projects/c/Draw%20Shapes)
 - [**Higher Lower guessing game**](Projects/c/Higher%20Lower%20game)
 
