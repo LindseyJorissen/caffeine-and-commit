@@ -9,7 +9,7 @@ This repository contains a collection of small projects and exercises I've been 
 
 Here are some of the projects included in this repository:
 
-Python
+**Python**
 
 - [**Draw shapes**](Projects/Draw%20Shapes)
 - [**Fibonacci sequence**](Projects/Fibonacci%20sequence)
@@ -19,7 +19,7 @@ Python
 - [**Rock Paper Scissors game**](Projects/Rock%20Paper%20Scissors)
 - [**Tic-Tac-Toe game**](Projects/Tic-Tac-Toe)
 
-C
+**C**
 - [**Check Creditcard number**](Projects/Check%20Creditcard)
 - [**Draw shapes**](Projects/Draw%20shapes)
 - [**Higher Lower guessing game**](Projects/Higher%20Lower%20game)
