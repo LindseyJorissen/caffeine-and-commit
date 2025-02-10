@@ -11,7 +11,7 @@ Here are some of the projects included in this repository:
 
 **Python** :
 
-- [***Change Calculator**](Projects/python/Change%20Calculator)
+- [**Change Calculator**](Projects/python/Change%20Calculator)
 - [**Draw shapes**](Projects/python/Draw%20shapes)
 - [**Fibonacci sequence**](Projects/python/Fibonacci%20sequence)
 - [**Higher Lower guessing game**](Projects/python/Higher%20Lower)
