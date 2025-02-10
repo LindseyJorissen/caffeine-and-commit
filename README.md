@@ -18,7 +18,7 @@ Here are some of the projects included in this repository:
 - [**Multiplication Table**](Projects/python/Multiplication%20Table)
 - [**Rock Paper Scissors game**](Projects/python/Rock%20Paper%20Scissors)
 - [**Tic-Tac-Toe game**](Projects/python/Tic-Tac-Toe)
-- [**Youtube downloader**](Projects/python/Youtube%20downloader)
+- [**Youtube mp4 downloader**](Projects/python/Youtube%20downloader)
 
 
 **C** :
