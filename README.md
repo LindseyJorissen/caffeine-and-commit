@@ -11,7 +11,7 @@ Here are some of the projects included in this repository:
 
 **Python**
 
-- [**Draw shapes**](Projects/python/Draw%20Shapes)
+- [**Draw shapes**](Projects/python/Draw%20shapes)
 - [**Fibonacci sequence**](Projects/python/Fibonacci%20sequence)
 - [**Higher Lower guessing game**](Projects/python/Higher%20Lower)
 - [**Magic 8-Ball**](Projects/python/Magic%208-Ball)
