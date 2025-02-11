@@ -9,6 +9,8 @@ This repository contains a collection of small projects and exercises I've been 
 
 Here are some of the projects included in this repository:
 
+<br>
+
 **Python** :
 
 <details>
@@ -56,6 +58,7 @@ Here are some of the projects included in this repository:
   Downloads YouTube videos in MP4 format.
 </details>
 
+<br>
 
 **C** :
 
