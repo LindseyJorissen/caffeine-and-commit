@@ -1,6 +1,4 @@
 from kivy.app import App
-from kivy.core.window import Window
-Window.size = (360, 640)
 
 class CalculatorApp(App):
     def build(self):

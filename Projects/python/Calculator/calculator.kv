@@ -6,26 +6,24 @@ BoxLayout:
         Color:
             rgba: 0.5, 0.25, 0, 1  # Border color
         Line:
-            width: 20  # Border
+            width: 20
             rectangle: self.x, self.y, self.width, self.height
 
     TextInput:
         id: result
-        font_size: 80
-        halign: "right"
+        font_size: 32
         readonly: True
         halign: 'right'
         multiline: False
         background_color: (164, 165, 123, 1)  # Beige background for the input field
         foreground_color: (0.5, 0.25, 0,1)  # Text color
-        size_hint_y: 0.4
-        padding: [10, self.height / 3]
+        size_hint_y: 0.3
 
     GridLayout:
         cols: 4
         spacing: 10
         padding: [10, 10, 10, 10]
-        size_hint_y: 0.5
+        size_hint_y: 0.6
 
         Button:
             text: "7"
