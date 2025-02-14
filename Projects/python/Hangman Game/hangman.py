@@ -1,4 +1,5 @@
 import random as rand
+from hangman_visual import hangman
 
 def pick_random_word(words,word_display):
     random_word = rand.choice(words)
@@ -6,7 +7,10 @@ def pick_random_word(words,word_display):
         word_display.append("_")
     return random_word,word_display    
     
-def do_turn(random_word,word_display,previous_guesses):
+def display_hangman(mistakes):
+    print(hangman[mistakes])
+    
+def do_turn(random_word,word_display,previous_guesses,mistakes):
     right_letter = False
     letter_choice = input("Pick a letter: ")
     if letter_choice in previous_guesses:
@@ -18,16 +22,18 @@ def do_turn(random_word,word_display,previous_guesses):
             word_display[i]= letter_choice
             right_letter = True
     if not right_letter:
-        previous_guesses.append(letter_choice) 
-    print("##hangman##")
-    print(" ".join(word_display))
+        previous_guesses.append(letter_choice)
+        mistakes += 1
+    display_hangman(mistakes)
+    print(f"*|  {' '.join(word_display)}  |*")
     print(f"Wrong Guesses: {' - '.join(previous_guesses)} \n")    
-    return word_display,previous_guesses
+    return word_display,previous_guesses,mistakes
 
 def play_hangman():
     words = []
     word_display = []
     previous_guesses = []
+    mistakes = 0
     
     with open("word_list.txt", "r") as wordlist:
         for word in wordlist:
@@ -35,7 +41,9 @@ def play_hangman():
             
     random_word,word_display = pick_random_word(words,word_display)
     while random_word.lower() != "".join(word_display):
-        word_display,previous_guesses = do_turn(random_word,word_display,previous_guesses)
+        if mistakes >5:
+            print(f"YOU'RE DEAD\n The word was {random_word}\n")
+        word_display,previous_guesses,mistakes = do_turn(random_word,word_display,previous_guesses,mistakes)
     print(f"You won! '{random_word}' was the word!")
     
-play_hangman()    
+play_hangman()
