@@ -29,6 +29,11 @@ Here are some of the projects included in this repository:
 </details>
 
 <details>
+  <summary><a href="Projects/python/Hangman%20Game"><strong>Hangman Game</strong></a></summary>
+  Classic game of hangman against the computer.
+</details>
+
+<details>
   <summary><a href="Projects/python/Higher%20Lower"><strong>Higher Lower guessing game</strong></a></summary>
   Number guessing game with higher/lower hints.
 </details>
