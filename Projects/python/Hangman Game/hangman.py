@@ -43,7 +43,9 @@ def play_hangman():
     while random_word.lower() != "".join(word_display):
         if mistakes >5:
             print(f"YOU'RE DEAD\n The word was {random_word}\n")
+            break
         word_display,previous_guesses,mistakes = do_turn(random_word,word_display,previous_guesses,mistakes)
-    print(f"You won! '{random_word}' was the word!")
+    else:
+        print(f"You won! '{random_word}' was the word!")
     
 play_hangman()
