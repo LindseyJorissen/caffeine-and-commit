@@ -1,10 +1,9 @@
 import random as rand
 from hangman_visual import hangman
 
-def pick_random_word(words,word_display):
+def pick_random_word(words):
     random_word = rand.choice(words)
-    for i in range(len(random_word)):
-        word_display.append("_")
+    word_display = ["_" for _ in range(len(random_word))]
     return random_word,word_display    
     
 def display_hangman(mistakes):
@@ -30,16 +29,13 @@ def do_turn(random_word,word_display,previous_guesses,mistakes):
     return word_display,previous_guesses,mistakes
 
 def play_hangman():
-    words = []
-    word_display = []
     previous_guesses = []
     mistakes = 0
-    
     with open("word_list.txt", "r") as wordlist:
-        for word in wordlist:
-            words.append(word.strip())
-            
-    random_word,word_display = pick_random_word(words,word_display)
+        words = [word.strip() for word in wordlist]
+    word_display = pick_random_word(words)
+
+    random_word,word_display = pick_random_word(words)
     while random_word.lower() != "".join(word_display):
         if mistakes >5:
             print(f"YOU'RE DEAD\n The word was {random_word}\n")
