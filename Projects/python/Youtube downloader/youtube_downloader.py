@@ -1,6 +1,6 @@
 import yt_dlp #using yt_dlp since pytube is not updated
 
-save_path = "" #place download path
+save_path = "/Downloads" #place download path
 link = input("Paste the YouTube link of the video you would like to download:\n")
 
 try:
